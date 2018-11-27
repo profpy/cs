@@ -6,4 +6,4 @@ for i in range(min,max+1):
     if i % divisible == 0:                               
         print(i)                                          
         sum = sum + 1                                     
- print(sum)
+ print("Total:",sum)
