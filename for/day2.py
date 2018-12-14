@@ -19,7 +19,7 @@ while not done:
         min = int(input("Min: "))
         max = int(input("Max: "))
         divisible = int(input("Divisible: "))
-        for x in range(min,max):
+        for x in range(min,max+1):
             if x % divisible == 0:
                 count = count + 1
         print("Count:",count)
