@@ -24,11 +24,11 @@ while not done:
                 count = count + 1
         print("Count:",count)
     elif choice == "E4":
-        for i in range(5):
+        for x in range(5):
             num = int(input("Number: "))
-            if i == 2:
-                third = i
-        print(third)
+            if x == 2:
+                third = num
+        print("Third Number:",third)
     elif choice == "Q":
         print("Quitting!!")
         done = True
