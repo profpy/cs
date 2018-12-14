@@ -9,7 +9,7 @@ while not done:
     choice = input("Choose: ")
     if choice == "E1":
         for x in range(1,7):
-            print(i)
+            print(x)
     elif choice == "E2":
         print("Number\tSquared")
         for x in range(-5,6):
